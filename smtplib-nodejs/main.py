@@ -4,7 +4,7 @@ smtp_object = smtplib.SMTP('smtp.gmail.com', 587)
 smtp_object.ehlo()
 smtp_object.starttls()
 email = "marvelousprince012233@gmail.com"
-app_password = "zgllaztujdlmsajw"
+app_password = "<YOUR-APP-PASSWORD-HERE>"
 smtp_object.login(email, app_password)
 
 from_address = email
